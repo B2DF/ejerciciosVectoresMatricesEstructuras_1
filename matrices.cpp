@@ -56,7 +56,7 @@ int main () {
     leer("ingrese las filas de la primer matriz (menor que 30)", filas);
     leer("Ingrese las columnas de la primer matriz (menor que 25)", columnas);
     
-    int matriz[filas][columnas] = {0};
+    int matriz[MAX_FILAS][MAX_COLUMNAS] = {0};
     cargarMatriz(matriz, filas, columnas);
     imprimirColumna(matriz, columnas, filas);
 
