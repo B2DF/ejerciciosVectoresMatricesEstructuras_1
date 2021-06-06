@@ -7,8 +7,7 @@ void apareo(int vecA[], int n, int vecB[], int m, int vecC[], int &k)
     int i = 0, j = 0;
     // Contador para posicionarse en el vector resultante.
     k = 0;
-    // Mientras pueda comparar valores (al menos uno de los vectores tiene
-valor)
+    // Mientras pueda comparar valores (al menos uno de los vectores tiene valor)
 while (i < n && j < m)
 {
     // Comparo los valores de los vectores
@@ -27,8 +26,7 @@ while (i < n && j < m)
     // Incremento el contador de la posicion del vector resultante
     k++;
 }
-// Paso todos los elementos restantes de A
-while (i < n)
+while (i < n)// Paso todos los elementos restantes de A
 {
     vecC[k] = vecA[i];
     i++;

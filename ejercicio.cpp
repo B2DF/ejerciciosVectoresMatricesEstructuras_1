@@ -14,7 +14,7 @@ int main () {
     int posicionMayor;
    
 
-    leer("Ingrese la cantidad de elementos (menos de 40", cantidadElementos);
+    leer("Ingrese la cantidad de elementos (menos de 40)", cantidadElementos);
     int vector[cantidadElementos] = {0};
     
     for(int i = 0; i < cantidadElementos; i++){
